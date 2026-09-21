@@ -1,4 +1,4 @@
-// Linked-list
+// insertion of new node of starting of linked list.
 #include <iostream> 
 using namespace std;
 
