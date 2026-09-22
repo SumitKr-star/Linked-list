@@ -26,17 +26,18 @@ int main()
     third-> next = NULL;
 
     node*head = first;
-     while ( head !=NULL)
+    
+    if (head == NULL)
+    {
+        cout<< "list is empty" ;
+    }
+    
+    while ( head !=NULL)
     {
         cout<< head->data<< " "<< endl ;
         head = head->next;
     }
     head = first;  // return to first node
-
-    if (head == NULL)
-    {
-        cout<< "list is empty" ;
-    }
     
     head = head->next;  // head assisgn to second node 
     delete first ;
@@ -45,7 +46,7 @@ int main()
 
     while ( head !=NULL)
     {
-       cout<< head->data<< " " ;
+        cout<< head->data<< " " ;
         head = head-> next;
     }
     
