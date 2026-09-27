@@ -1,4 +1,4 @@
-// Linked-list
+// Print the value of last node.
 #include <iostream> 
 using namespace std;
 
@@ -32,9 +32,11 @@ int main()
         temp = temp-> next;
 
     }
-    cout<< temp->data<< endl;
-
-
+    cout<< temp->data<< " ";
+    
+    temp = first;
+    
+    return 0;
 }
 
 
