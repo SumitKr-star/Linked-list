@@ -44,16 +44,16 @@ int main()
         head = head-> next;
 
     }
-    head = first;
+    head = first;     // return pointer to first node
 
-    int count = 1;
+    int count = 1;   // incremption to reach third node of list.
     while(count < 2)
     {
         temp = temp->next;
         count++;
     }
     
-    int count1 = 1;
+    int count1 = 1;      // incremption to reach third node of list.
     while(count1 < 3)
     {
         temp1 = temp1->next;
@@ -61,7 +61,7 @@ int main()
     }
 
     temp->next = temp1->next;
-    delete temp1;
+    delete temp1;    // delete third node.
 
     cout<< "\nlist after delete node"<< endl;
     
@@ -73,8 +73,6 @@ int main()
     head = first; // call pointer to first node
 
     return 0;
-
-
 
 }
 
