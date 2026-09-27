@@ -53,7 +53,7 @@ int main()
         cout<< temp->data<< endl;
         temp= temp->next;
     }
-
+    temp = first;
     return 0;
 }
 
