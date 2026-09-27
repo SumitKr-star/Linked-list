@@ -32,21 +32,15 @@ int main()
     fourth-> next = NULL;
 
 
-
-
-
     while ( temp->next != NULL)
     {
     
         temp = temp-> next;
-        
-        
-
     }
     temp-> next = fourth;
     cout<< temp->data<< endl;
-    
 
+    temp = first;
     return 0;
 }
 
