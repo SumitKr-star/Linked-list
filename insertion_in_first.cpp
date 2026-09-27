@@ -43,6 +43,8 @@ int main()
     }
     cout<< temp->data<< endl;
 
+    temp = first;
+    return 0;
 
 }
 
