@@ -49,7 +49,7 @@ int main()
         cout<< head->data<< " " ;
         head = head-> next;
     }
-    head = first;
+    head = first;  // call pointer to return first node.
     
     return 0;
 }
