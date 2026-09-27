@@ -49,6 +49,7 @@ int main()
         cout<< head->data<< " " ;
         head = head-> next;
     }
+    head = first;
     
     return 0;
 }
