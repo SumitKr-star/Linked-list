@@ -32,7 +32,7 @@ int main()
     fourth-> next = NULL;
 
 
-    while ( temp->next != NULL)
+    while ( temp->next != NULL)  // move pointer to last node
     {
     
         temp = temp-> next;
@@ -40,7 +40,7 @@ int main()
     temp-> next = fourth;
     cout<< temp->data<< endl;
 
-    temp = first;
+    temp = first;   // call back pointer to first node
     return 0;
 }
 
