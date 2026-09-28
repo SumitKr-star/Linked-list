@@ -41,9 +41,20 @@ int main()
     cout<< temp->data<< endl;
 
     temp = first;   // call back pointer to first node
+    
+    
+    while ( temp != NULL). // print all values of nodes
+    {
+        cout<< temp->data<< endl;
+        temp = temp-> next;
+
+    }
+    cout<< temp->data<< endl;
+
+    temp = first;
+    
     return 0;
 }
-
 
 
 
