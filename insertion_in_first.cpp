@@ -35,7 +35,7 @@ int main()
     temp = fourth ;
 
 
-    while ( temp != NULL)
+    while ( temp != NULL). // print all values of nodes
     {
         cout<< temp->data<< endl;
         temp = temp-> next;
@@ -43,7 +43,7 @@ int main()
     }
     cout<< temp->data<< endl;
 
-    temp = first;
+    temp = first;  // call back pointer to first node
     return 0;
 
 }
